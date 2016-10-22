@@ -80,6 +80,10 @@ body {
      border:2px solid black;
 }
 
+.img-circle {
+    margin-bottom: 20px;
+}
+
 /* --------------------------------------
    Typography
    -------------------------------------- */
