@@ -1,0 +1,196 @@
+/*
+
+Stylesheet
+==========
+
+Author:  Nikolaos-Nikiforos Vasilikiotis
+Updated: July 2016
+Notes:	 Applicable for index, portfolio, blog, about (html)
+
+*/
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+#showcasing {
+    text-align: center;
+}
+
+#para_left {
+    text-align: left;
+}
+
+.quarter {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.contents {
+    height: 50%;
+    width: 100%;
+}
+
+.butts {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 150px;
+    width: 300px;
+}
+
+.blog {
+    background-color: #707D02;
+    padding-top: 51px;
+}
+
+.portfolio {
+    background-color: #A9BD03;
+    padding-top: 51px;
+}
+
+.about {
+    background-color: #CBE303;
+    padding-top: 51px;
+}
+
+.panel {
+    background-color: transparent;
+    box-shadow: none;
+    margin-top: 20px;
+}
+
+.img-circle.avatar {
+     border:2px solid black;
+}
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+.navbar-default {
+    background-color: #373E01;
+    border-color: #000000;
+}
+
+.navbar-default .navbar-brand {
+    color: #000000;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-text {
+    color: #000000;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #000000;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color: #CBE303;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #ffffff;
+    background-color: #CBE303;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #CBE303;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #CBE303;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #000000;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: #000000;
+}
+
+.navbar-default .navbar-link {
+    color: #000000;
+}
+
+.navbar-default .navbar-link:hover {
+    color: #ffffff;
+}
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+
+/* Portrait & landscape phone */
+
+@media (max-width: 600px) {
+    .butts {
+        height: 75px;
+        width: 150px;
+    }
+}
+
+
+/* Landscape phone to portrait tablet */
+
+@media (max-width: 768px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #000000;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #ffffff;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #ffffff;
+        background-color: #CBE303;
+    }
+}
+
+
+/* Large desktop */
+
+@media (min-width: 1200px) {}
