@@ -21,7 +21,6 @@ body {
     text-align: center;
 }
 
-
 /* --------------------------------------
    Layout
    -------------------------------------- */
@@ -78,17 +77,27 @@ body {
 }
 
 .img-circle.avatar {
-     border:2px solid black;
+    border: 2px solid #373E01;
 }
 
 .img-circle {
     margin-bottom: 20px;
 }
 
+
 /* --------------------------------------
    Typography
    -------------------------------------- */
+h1, h2, h3 {
+   font-family: 'VT323', monospace;
+    color: black;
+}
 
+p {
+    font-family: 'Titillium Web', sans-serif;
+    color: black;
+    font-size: 16px;
+}
 
 /* --------------------------------------
    Navbar
