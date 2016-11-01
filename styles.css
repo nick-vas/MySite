@@ -27,7 +27,7 @@ body {
    -------------------------------------- */
 
 #showcasing {
-    text-align: center;
+    margin: 10px;
 }
 
 #para_left {
@@ -42,7 +42,6 @@ body {
 
 .contents {
     height: 50%;
-    width: 100%;
 }
 
 .butts {
@@ -57,23 +56,25 @@ body {
 
 .blog {
     background-color: #707D02;
-    padding-top: 51px;
+    padding-top: 60px;
 }
 
 .portfolio {
     background-color: #A9BD03;
-    padding-top: 51px;
+    padding-top: 60px;
 }
 
 .about {
     background-color: #CBE303;
-    padding-top: 51px;
+    padding-top: 60px;
 }
 
 .panel {
     background-color: transparent;
     box-shadow: none;
-    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .img-circle.avatar {
